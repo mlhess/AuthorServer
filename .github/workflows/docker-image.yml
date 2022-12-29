@@ -22,6 +22,6 @@ jobs:
 
     - name: Build the hello-docker Docker image
       run: |
-          cd AuthorServer
+          cd autorserver
           docker build -t ghcr.io/mlhess/authorserver . 
           docker push ghcr.io/mlhess/authorserver:latest
